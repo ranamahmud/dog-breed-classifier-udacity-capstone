@@ -8,7 +8,7 @@
 2. [File Description](#file-desc)
 3. [Project Definition](#definition)
 4. [Analysis](#analysis)
-5. [Conclusion](#Concluison)
+5. [Conclusion](#conclusion)
 
 ### Instructions: <a name="instructions"></a>
 
@@ -65,9 +65,13 @@ flask run
 # File Description <a name="file-desc"></a>
 
 requirements.txt - Python Package List
+
 report.html - dog_app.ipynb in html format.
+
 dog_app.ipynb - jupyter notebook of dog breed classifier.
+
 webapp - web app folder.
+
 images - folder of image files for the markdown file.
 
 # Project Definition <a name="definition"></a>
