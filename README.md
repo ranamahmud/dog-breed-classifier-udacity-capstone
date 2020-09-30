@@ -18,29 +18,35 @@
     git clone https://github.com/ranamahmud/dog-breed-classifier-udacity-capstone.git
     ```
 
-2.  Create and activate a new virtual environment.
+2.  Install conda
 
     ```
-    python3 -m virtualenv venv
-    source venv/bin/activate
+    pip install conda
     ```
 
-3.  Python used 3.7. You can use python 3.7+.
-4.  Install the python packages using requirements.txt using
+3.  Create and activate conda environment.
 
 ```
-pip install -r requirements.txt
-```
+conda create --name dog-project python=3.7
 
-5.  Run the following commands to start the web app
-
-6.  CD into the "web app" directory
+conda activate dog-project
 
 ```
-cd webapp
+
+4.  Python used 3.7. You can use python 3.7+.
+5.  Install the python packages using requirements.txt using
+
+```
+pip3 install -r requirements.txt
 ```
 
-7.  To run in the Windows operating system use the following command:
+6. Cd into web app directory.
+
+   ```
+    cd webapp
+   ```
+
+7. To run in the Windows operating system use the following command:
 
 ```
 set FLASK_APP=app.py
@@ -55,6 +61,14 @@ flask run
 ```
 
 9.  The app will be running on http://127.0.0.1:5000/
+
+# File Description <a name="file-desc"></a>
+
+requirements.txt - Python Package List
+report.html - dog_app.ipynb in html format.
+dog_app.ipynb - jupyter notebook of dog breed classifier.
+webapp - web app folder.
+images - folder of image files for the markdown file.
 
 # Project Definition <a name="definition"></a>
 
@@ -150,6 +164,30 @@ Among the 3 models, CNN to Classify Dog Breeds using Resnet50 has the best perfo
 ![Brittany](images/Brittany_02625.jpg)Brittany
 
 From the above two images, we can see that dog breed pairs are often similar and difficult to differentiate.
+
+## Data Visualization
+
+### Test on human image
+
+![png](images/output_84_0.png)
+
+![png](images/output_85_0.png)
+
+### Test on dog image
+
+![png](images/output_87_0.png)
+
+![png](images/output_88_0.png)
+
+### Test on other images
+
+source: Ramiz Dedaković @ramche unsplash
+
+![png](images/output_91_0.png)
+
+Photo by Ramiz Dedaković on Unsplash
+
+![png](images/output_92_0.png)
 
 # Conclusion <a name="conclusion"></a>
 
